@@ -1,0 +1,31 @@
+Source: xpybutil
+Maintainer: Klee Dienes <klee@debian.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9), dh-python, python-all-dev (>= 2.6.6-3), python-setuptools, python3-all-dev, python3-setuptools, libcapnp-dev, cython, cython3, python-xpyb, python3-xpyb
+Standards-Version: 3.9.6
+Homepage: https://github.com/BurntSushi/xpybutil
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python-xpybutil
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: utility layer for xpyb
+ An abstraction over the X python binding for XCB (xpyb).  It exists
+ because xpyb is a very low level library that communicates with X.
+ .
+ The most mature portions of xpybutil are the ICCCM and EWMH
+ modules. Each implement their respective specifications of the same
+ name.
+
+Package: python3-xpybutil
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: utility layer for xpyb
+ An abstraction over the X Python Binding for XCB (xpyb).  It exists
+ because xpyb is a very low level library that communicates with X.
+ .
+ The most mature portions of xpybutil are the ICCCM and EWMH
+ modules. Each implement their respective specifications of the same
+ name.

@@ -1,0 +1,11 @@
+xpybutil (0.0.2-1) unstable; urgency=medium
+
+  * Update to 0.0.2.
+
+ -- Klee Dienes <klee@debian.org>  Tue, 29 Sep 2015 08:33:18 -0400
+
+xpybutil (0.0.1-6) unstable; urgency=medium
+
+  * Initial release. (Closes: #)
+
+ -- Klee Dienes <klee@debian.org>  Mon, 12 Jan 2015 15:14:35 -0500

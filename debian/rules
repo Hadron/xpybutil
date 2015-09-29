@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=xpybutil
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	mkdir -p debian/python-xpybutil/usr/share/doc/python-xpybutil/
+	mkdir -p debian/python3-xpybutil/usr/share/doc/python3-xpybutil/
+	mv debian/python-xpybutil/usr/share/doc/xpybutil/README debian/python-xpybutil/usr/share/doc/python-xpybutil/
+	mv debian/python3-xpybutil/usr/share/doc/xpybutil/README debian/python3-xpybutil/usr/share/doc/python3-xpybutil/
+	rm debian/python-xpybutil/usr/share/doc/xpybutil/COPYING
+	rm debian/python3-xpybutil/usr/share/doc/xpybutil/COPYING

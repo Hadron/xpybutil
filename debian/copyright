@@ -1,0 +1,28 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xpybutil
+Upstream-Contact: BurntSushi
+Source: https://github.com/BurntSushi/xpybutil
+
+Files: *
+Copyright: Copyright (c) 2010-2014 Andrew Gallant <github@burntsushi.net>
+License: WTFPL
+
+Files: debian/*
+Copyright: Copyright (c) 2014 Klee Dienes <klee@debian.org>
+License: WTFPL
+
+License: WTFPL
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+ .
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ .
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+ .
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ .
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
