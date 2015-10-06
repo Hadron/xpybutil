@@ -2,7 +2,7 @@ Source: xpybutil
 Maintainer: Klee Dienes <klee@debian.org>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 9), dh-python, python-all-dev (>= 2.6.6-3), python-setuptools, python3-all-dev, python3-setuptools, libcapnp-dev, cython, cython3, python-xcffib | python-xpyb
+Build-Depends: debhelper (>= 9), dh-python, python-all-dev (>= 2.6.6-3), python-setuptools, python3-all-dev, python3-setuptools, libcapnp-dev, cython, cython3, python-xcffib | python-xpyb, python3-xcffib | python3-xpyb
 Standards-Version: 3.9.6
 Homepage: https://github.com/BurntSushi/xpybutil
 X-Python-Version: >= 2.6
